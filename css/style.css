@@ -1,0 +1,93 @@
+h3{
+    color: orange;
+    background-color: aquamarine;
+    font-size: 40px;
+}
+p{
+    color: black;
+    background-color: yellow;
+    font-size: 20px;
+}
+
+thead,tfoot{
+    color: black;
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+
+.t_transform_uppercase{
+    text-transform: uppercase;
+}
+
+.t_transform_lowercase{
+    text-transform: lowercase;
+}
+
+.t_transform_capitlize{
+    text-transform: capitalize;
+}
+
+.t_align_center{
+    text-align: center;
+}
+
+.t_align_right{
+    text-align: right;
+}
+
+.t_decor_over{
+    text-decoration: overline;
+}
+
+.t_decor_line{
+    text-decoration: line-through;
+}
+
+.t_decor_under{
+    text-decoration: underline;
+}
+
+
+.t_indent{
+    text-indent: 110px;
+}
+
+.t_line_height{
+    line-height: 28px;
+}
+
+.t_letter_spacing{
+    letter-spacing: 20px;
+}
+
+.t_word_spacing{
+    word-spacing: 20px;
+}
+
+.t_shadow{
+    color: blueviolet;
+    text-shadow: 4px 6px 4px red;
+    font-size: 70px;
+    text-align: center;
+}
+
+.t_shadow1{
+    color: black;
+    text-shadow: 6px 5px 4px gray;
+    font-size: 50px;
+    text-align: center;
+}
+
+.t_shadow2{
+    color: palevioletred;
+    text-shadow: 4px 5px 3px aquamarine;
+    font-size: 80px;
+    text-align: center;
+}
+
+.t_shadow3{
+    color: red;
+    text-shadow: 2px 2px 5px darkred;
+    font-size: 70px;
+    text-align: center;
+}
