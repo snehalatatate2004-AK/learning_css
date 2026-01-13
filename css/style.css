@@ -5,7 +5,7 @@ h3{
 }
 p{
     color: black;
-    background-color: yellow;
+    background-color: white;
     font-size: 20px;
 }
 
@@ -53,7 +53,7 @@ thead,tfoot{
 }
 
 .t_line_height{
-    line-height: 28px;
+    line-height: 30px;
 }
 
 .t_letter_spacing{
@@ -90,4 +90,84 @@ thead,tfoot{
     text-shadow: 2px 2px 5px darkred;
     font-size: 70px;
     text-align: center;
+}
+
+.img_b_shadow{
+    width: 500px;
+    box-shadow: 5px 6px 7px green;
+}
+/* using rgb */
+.img_b_shadow2{
+    width: 500px;
+     box-shadow: 5px 6px 7px rgb(#ff0000, green, rgb(0, 26, 255));
+}
+/* using hexa */
+.img_b_shadow3{
+    width: 500px;
+     box-shadow: 5px 6px 7px #F527E4;
+
+}
+
+.img_d_shadow{
+    width: 500px;
+    filter: drop-shadow(5px 5px 5px red);
+}
+
+.img_d_shadow1{
+   width: 500px;
+    filter: drop-shadow(5px 5px 5px red); 
+}
+
+.img_d_shadow2{
+    width: 700px;
+    filter: drop-shadow(5px 5px 5px aqua); 
+}
+
+.f_family1{
+    font-family: monospace;
+}
+
+.f_family2{
+    font-family: cursive;
+}
+
+.f_family3{
+    font-family: sans-serif;
+}
+
+.f_family4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.f_family5{
+    font-family: fantasy;
+}
+
+.f_family6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.f_weight{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.f_font{
+    font: italic bold 30px Verdana;
+}
+/* #heading1{ */
+    /* color: red; */
+/* } */
+
+.heading1{
+    color: blue;
+    font-size: 70px;
+}
+
+#t_decor{
+    text-decoration: overline;
+}
+
+.t_transform{
+    text-transform: uppercase;
 }
