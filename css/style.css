@@ -366,3 +366,108 @@ h1{
     height: 500px;
     background: conic-gradient(from 90deg, red,yellow,aqua,blue,red);
 }
+
+
+.flex-item{
+    width: 200px;
+    height: 150px;
+    margin: 10px; 
+    margin-top: 10px;
+    background-color: #F527E4;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container{
+    display: flex;
+     flex-direction: row;
+    /* flex-wrap: wrap;  */
+     flex-direction: row-reverse; 
+    flex-flow: row wrap;
+    list-style: none;
+    /* justify-content: space-around , space-between,space-evenly;  */
+    justify-content: space-between;
+
+}
+
+.flex_gallery{
+    width: 200px;
+    height: 150px;
+    /* margin: 20px;  */
+    margin-top: 10px;
+    background-color: #F527E4;
+    color: aqua; 
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black;
+    box-shadow: 5px 6px 7px rgb(108, 63, 63);
+}
+
+.gallery{
+    display: flex;
+     /* flex-direction: row; */
+     flex-flow: row wrap;
+     list-style: none;
+     justify-content: space-around; 
+     
+}
+
+h1{
+    color: red;
+
+}
+h1:hover{
+    color: #F527E4;
+    font: 100px;
+    background-color: antiquewhite;
+
+
+}
+
+.para_hover{
+    border: black;
+}
+
+.para_hover:hover{
+    border: 2px solid red;
+    padding: 10px;
+    background: linear-gradient(black,green);
+    color: white;
+    padding: 40px;
+    margin: 50px;
+}
+
+h2:active{
+    color: red;
+    font-size: 40px;
+    cursor: pointer;
+}
+a:visited{
+    color: green;
+}
+
+input:focus{
+    background-color: aquamarine;
+    color: black;
+    border: 8px solid yellowgreen;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 30px;
+
+}
+
+p::first-line{
+    color: blue;
+}
+
+::selection{
+    color: red;
+    background-color: pink;
+}
