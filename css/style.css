@@ -259,7 +259,7 @@ thead,tfoot{
 
 }
 
-.box{
+/* .box{
     width: 200px;
     height: 100px;
     background-color: gainsboro;
@@ -292,7 +292,7 @@ thead,tfoot{
     position: sticky;
     top: 10px;
 
-}
+} */
 
 .rel{
     position: relative;
@@ -471,3 +471,127 @@ p::first-line{
     color: red;
     background-color: pink;
 }
+
+ul{
+    width: 200px;
+    padding: 10px;
+    list-style-type: none;
+    font-weight: 900;
+}
+
+li{
+    padding: 10px;
+    border: 3px solid gray ;
+    margin-bottom: 6px;
+    border-radius: 20px;
+}
+
+li:nth-child(odd){
+    background-color: aqua;
+}
+
+li:nth-child(even){
+    background-color: #F527E4;
+}
+
+li:first-child{
+    background-color: blue;
+}
+
+li:last-child{
+    background-color: red;
+}
+li:nth-child(5){
+    background-color: chartreuse;
+}
+
+/* .container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    /* margin-left: 30px; */
+    /* padding-top: 50px;
+/* } */
+
+/* .boxes{
+    background-color: aqua;
+    border-radius: 10px;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    transition: transform 2s ease-in 500ms;
+} */
+/* .box1:hover{
+    transform: translate(225px,125px);
+}
+.box2:hover{
+    transform: translateX(-80px);
+}
+.box3:hover{
+    transform: translateY(-80px);
+} */
+
+/* .box4:hover{
+    transform: rotate(360deg);
+} */
+
+/* .box5:hover{
+   transform: skewX(20deg);
+}
+
+.box6:hover{
+   transform: skewY(20deg);
+} */ 
+
+/* .box7:hover{
+   transform: skew(20deg, 20deg);
+}
+
+.box8:hover{
+    transform: scale(1.7);
+} */
+
+/* .box9:hover{
+    transform: rotate(90deg) scale(1.4) translateY(80px);
+} */ 
+
+div{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color:aqua;
+    position: relative;
+    animation: movingbox;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-delay: 5s;
+    animation-direction: alternate;
+}
+/* @keyframes movingbox{
+    0%{background-color: red; left: 0px; top: 0px;}
+    25%{background-color: blueviolet; left: 300px; top: 0px;}
+    50%{background-color:aqua; left: 300px; top: 300px;}
+    75%{background-color:yellowgreen; left: 0px; top: 300px;}
+    100%{background-color: red; left: 0px; top: 0px;}
+} */
+
+@keyframes movingbox{
+    0%{background-image:url(/images/ganesh.jpg)}
+    25%{background-image:url(/images/landscape.jpg)}
+    50%{background-color:url(/images/moon.jpg)}
+    75%{background-color:url(/images/nature1.jpg)}
+    100%{background-color: url(/images/moon.jpg)} 
+}
+/* .Box{
+    width: 150px;
+    height: 150px;
+    background-image: url(ganesh.jpg);
+    background-size:cover ;
+    background-position:center ;
+    background-repeat: no-repeat;
+    animation: movingbox ;
+} */
