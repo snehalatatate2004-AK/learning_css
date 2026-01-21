@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Image</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+        .swing{
+            animation: swing 1.5s  ease-in-out infinite alternate;
+            transform-origin: top center;
+            position: relative;
+
+        }
+        .swing img{
+            width: 300px;
+            border: 14px groove gold;
+            box-shadow: 8px 8px 8px;
+            color: gray;
+            display: block;
+        }
+
+        .swing::before{
+            content: "";
+            position: absolute;
+            top:-50px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 6px;
+            height: 50px;
+            background: gray;
+
+        }
+
+        .swing::after{
+            content: "\2B24";
+            position: absolute;
+            top: -55px;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 10px;
+            border-radius: 50%;
+        }
+
+        @keyframes swing{
+            0%{transform: rotate(4deg);}
+            100%{transform: rotate(-4deg);}
+        }
+    </style>
+</head>
+<body>
+    <figure class="swing">
+        <img src="images/gandhiji.webp"alt="Mahatma Gandhi"/>
+    </figure>
+</body>
+</html>
