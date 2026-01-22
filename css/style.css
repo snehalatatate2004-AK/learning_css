@@ -259,7 +259,7 @@ thead,tfoot{
 
 }
 
-/* .box{
+.box{
     width: 200px;
     height: 100px;
     background-color: gainsboro;
@@ -292,9 +292,9 @@ thead,tfoot{
     position: sticky;
     top: 10px;
 
-} */
+} 
 
-/* .rel{
+.rel{
     position: relative;
     height: 400px;
     width: 400px;
@@ -308,9 +308,9 @@ thead,tfoot{
     width: 150px;
     background-color: blueviolet;
     left: 125px;
-} */
+} 
 
-/* #sofa{
+ #sofa{
     position: absolute;
     height: 100px;
     width: 250px;
@@ -326,9 +326,9 @@ thead,tfoot{
     background-color: green;
     right: 0px;
     top: 250px;
-} */
+} 
 
-/* body{
+ body{
     background-image: url("/images/moon.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -338,17 +338,17 @@ thead,tfoot{
     color:black;
     font-size: 60px;
     text-align: center;
-} */
+} 
 
-/* .t_para{
+ .t_para{
     color: black;
     padding: 30px;
     /* background-color: antiquewhite; */
     /* font-size: 30px;
     font-family: cursive;
-} */ 
+} 
 
-/* .linear{
+ .linear{
     height: 600px;
     background: linear-gradient(orange,white,green);
 }
@@ -365,7 +365,7 @@ h1{
 .conic{
     height: 500px;
     background: conic-gradient(from 90deg, red,yellow,aqua,blue,red);
-} */
+} 
 
 
 .flex-item{
@@ -505,16 +505,16 @@ li:nth-child(5){
     background-color: chartreuse;
 }
 
-/* .container1{
+ .container1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
     /* margin-left: 30px; */
-    /* padding-top: 50px;
-/* } */
+     padding-top: 50px;
+ } 
 
-/* .boxes{
+ .boxes{
     background-color: aqua;
     border-radius: 10px;
     height: 150px;
@@ -524,8 +524,8 @@ li:nth-child(5){
     align-items: center;
     font-size: 14px;
     transition: transform 2s ease-in 500ms;
-} */
-/* .box1:hover{
+} 
+ .box1:hover{
     transform: translate(225px,125px);
 }
 .box2:hover{
@@ -533,31 +533,31 @@ li:nth-child(5){
 }
 .box3:hover{
     transform: translateY(-80px);
-} */
+} 
 
-/* .box4:hover{
+ .box4:hover{
     transform: rotate(360deg);
-} */
+} 
 
-/* .box5:hover{
+ .box5:hover{
    transform: skewX(20deg);
 }
 
 .box6:hover{
    transform: skewY(20deg);
-} */ 
+} 
 
-/* .box7:hover{
+ .box7:hover{
    transform: skew(20deg, 20deg);
 }
 
 .box8:hover{
     transform: scale(1.7);
-} */
+} 
 
-/* .box9:hover{
+ .box9:hover{
     transform: rotate(90deg) scale(1.4) translateY(80px);
-} */ 
+}  
 
  div{
     width: 500px;
@@ -579,8 +579,8 @@ li:nth-child(5){
    
 
 
-    /* animation-play-state: paused; */
-
+    /* { animation-play-state: paused; 
+    } */
 /* div:hover{
 animation-play-state: running;
 } */

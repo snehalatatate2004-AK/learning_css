@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <style>
+        @media only screen and (min-width:320px)and (max-width:767){
+            body{
+                background: blueviolet;
+
+            }
+            p{
+                display: none;
+
+            }
+            h1{
+                font-size: 10px;
+                color: white;
+                text-shadow: 3px 4px 5px red;
+            }
+
+             .big_img{
+                display: none;
+            } 
+
+        }
+
+        @media(min-width:768px){
+            body{
+                background-color: green;
+            }
+            h1{
+                color: aqua;
+                font-size: 40px;
+
+            }
+            
+        }
+
+        @media (min-width:1024px){
+            body{
+                background-color: yellow;
+            }
+            h1{
+                color: black;
+                font-size: 20px;
+            }
+        }
+
+        @media (min-width:850px) and (max-width:950px){
+            body{
+                background-color: purple;
+            }
+        h1,h3{
+            color: white;
+        }
+    }
+    </style>
+</head>
+<body>
+    <img class="big_img" src="images/flower1.png"/>
+    <h1>CSS Media Query</h1>
+    <p>The background will change according to the viewport width change.</p>
+    <h3>hello</h3>
+</body>
+</html>
